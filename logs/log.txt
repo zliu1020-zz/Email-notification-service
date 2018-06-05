@@ -1,0 +1,124 @@
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T16:45:18.092Z"}
+{"level":"info","message":"::1 - - [05/Jun/2018:16:45:18 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-05T16:45:18.097Z"}
+{"level":"error","message":"API request failed - Unrecognized field in request body: mail_settings","timestamp":"2018-06-05T17:20:14.128Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:20:14 +0000] \"POST /emails HTTP/1.1\" 400 129 \"-\" \"-\"\n","timestamp":"2018-06-05T17:20:14.133Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:20:52.831Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:20:52 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:20:52.836Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:23:07.480Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:23:07 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:23:07.485Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:24:43.522Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:24:43 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:24:43.527Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:42:19.792Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:42:19 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:42:19.797Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:42:20.169Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:42:20 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:42:20.170Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:42:20.447Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:42:20 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:42:20.448Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:42:20.769Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:42:20 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:42:20.770Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-05T17:45:52.360Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:45:52 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T17:45:52.365Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:45:53.155Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:45:53 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:45:53.157Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:45:53.656Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:45:53 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:45:53.656Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:45:54.319Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:45:54 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:45:54.320Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:45:54.677Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:45:54 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:45:54.678Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-05T17:46:46.233Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:46:46 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T17:46:46.237Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:46:46.785Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:46:46 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:46:46.787Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:46:47.252Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:46:47 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:46:47.254Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:46:47.665Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:46:47 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:46:47.667Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:46:48.024Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:46:48 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:46:48.025Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-05T17:47:16.086Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:47:16 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T17:47:16.093Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-05T17:48:12.393Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:48:12 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T17:48:12.400Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:48:12.866Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:48:12 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:48:12.868Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:48:13.121Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:48:13 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:48:13.122Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:48:13.402Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:48:13 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:48:13.402Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:48:13.793Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:48:13 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:48:13.794Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-05T17:49:22.795Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:49:22 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T17:49:22.801Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: recipients","timestamp":"2018-06-05T17:49:22.814Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:49:22 +0000] \"POST /emails HTTP/1.1\" 400 131 \"-\" \"-\"\n","timestamp":"2018-06-05T17:49:22.815Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:49:23.555Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:49:23 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:49:23.557Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:49:24.005Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:49:24 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:49:24.005Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:49:24.402Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:49:24 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:49:24.403Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T17:49:25.726Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:17:49:25 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T17:49:25.726Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-05T18:15:09.746Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:09 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:09.751Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: recipients","timestamp":"2018-06-05T18:15:09.762Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:09 +0000] \"POST /emails HTTP/1.1\" 400 131 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:09.763Z"}
+{"level":"error","message":"API request failed - Unrecognized field in request body: send_at","timestamp":"2018-06-05T18:15:09.767Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:09 +0000] \"POST /emails HTTP/1.1\" 400 123 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:09.768Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:15:10.690Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:10 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:10.691Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:15:10.841Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:10 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:10.841Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:15:10.996Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:10 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:10.998Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:15:11.151Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:11 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:11.152Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-05T18:15:41.031Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:41 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:41.036Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: recipients","timestamp":"2018-06-05T18:15:41.047Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:41 +0000] \"POST /emails HTTP/1.1\" 400 131 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:41.047Z"}
+{"level":"error","message":"API request failed - Desired time cannot be a past date","timestamp":"2018-06-05T18:15:41.052Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:41 +0000] \"POST /emails HTTP/1.1\" 400 114 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:41.052Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:15:41.793Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:41 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:41.793Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:15:42.354Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:42 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:42.354Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:15:42.807Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:42 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:42.808Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:15:43.215Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:15:43 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:15:43.216Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-05T18:17:09.931Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:17:09 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T18:17:09.942Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: recipients","timestamp":"2018-06-05T18:17:09.962Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:17:09 +0000] \"POST /emails HTTP/1.1\" 400 131 \"-\" \"-\"\n","timestamp":"2018-06-05T18:17:09.963Z"}
+{"level":"error","message":"API request failed - Desired time cannot be a past date","timestamp":"2018-06-05T18:17:09.970Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:17:09 +0000] \"POST /emails HTTP/1.1\" 400 114 \"-\" \"-\"\n","timestamp":"2018-06-05T18:17:09.971Z"}
+{"level":"error","message":"API request failed - Scheduling time should be specified by only one of sendEachAt and sendAt","timestamp":"2018-06-05T18:17:09.977Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:17:09 +0000] \"POST /emails HTTP/1.1\" 400 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:17:09.978Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:17:10.392Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:17:10 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:17:10.393Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:17:10.788Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:17:10 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:17:10.788Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:17:11.586Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:17:11 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:17:11.586Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:17:12.199Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:17:12 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:17:12.200Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-05T18:18:03.494Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:18:03 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T18:18:03.504Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: recipients","timestamp":"2018-06-05T18:18:03.529Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:18:03 +0000] \"POST /emails HTTP/1.1\" 400 131 \"-\" \"-\"\n","timestamp":"2018-06-05T18:18:03.531Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: subject","timestamp":"2018-06-05T18:18:03.541Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:18:03 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-05T18:18:03.542Z"}
+{"level":"error","message":"API request failed - Desired time cannot be a past date","timestamp":"2018-06-05T18:18:03.552Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:18:03 +0000] \"POST /emails HTTP/1.1\" 400 114 \"-\" \"-\"\n","timestamp":"2018-06-05T18:18:03.552Z"}
+{"level":"error","message":"API request failed - Scheduling time should be specified by only one of sendEachAt and sendAt","timestamp":"2018-06-05T18:18:03.561Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:18:03 +0000] \"POST /emails HTTP/1.1\" 400 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:18:03.561Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:18:03.991Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:18:03 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:18:03.991Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:18:04.145Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:18:04 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:18:04.146Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:18:04.364Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:18:04 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:18:04.365Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-05T18:18:04.921Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Jun/2018:18:18:04 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-05T18:18:04.921Z"}
