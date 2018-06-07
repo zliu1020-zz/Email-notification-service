@@ -6,7 +6,7 @@ let advanceTests = require('./integration/advance.spec');
 
 describe('Email Service Integration Tests', () => {
 
-    before(done => {g
+    before(done => {
         server = app.listen(3000, done);
     });
 
