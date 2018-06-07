@@ -1,5 +1,5 @@
-var InternalError = require('../../error/InternalError');
-var logger = require('../../logger/logger');
+let InternalError = require('../../error/InternalError');
+let logger = require('../../logger/logger');
 
 let apiHelper = {
 

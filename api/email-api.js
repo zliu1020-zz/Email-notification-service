@@ -2,8 +2,9 @@ let apiHelper = require('./components/api-helper');
 let emailService = require('../services/email');
 let InternalError = require('../error/InternalError');
 let _ = require('lodash');
+let moment = require('moment');
 
-var emailAPI = {
+let emailAPI = {
 
     sendRegularEmail: async function(req, res){
         try{
@@ -57,14 +58,18 @@ var emailAPI = {
             let scheduling = _.isArray(recipients) ? sendEachAt : sendAt;
             let mailSettings = req.body.mail_settings;
 
-            let now = new Date().getTime() / 1000;
+            let now = moment().unix();
+
             if(_.isArray(scheduling)){
-                for(let ts of scheduling){
-                    if(ts < now){
+                for(let time of scheduling){
+                    time = moment(time).unix();
+                    if(time < now){
                         throw new InternalError(`Desired time cannot be a past date`, InternalError.Types.UserError);
                     }
                 }
             }else{
+                scheduling = moment(scheduling).unix();
+
                 if(scheduling < now){
                     throw new InternalError(`Desired time cannot be a past date`, InternalError.Types.UserError);
                 }

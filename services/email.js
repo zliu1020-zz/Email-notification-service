@@ -1,12 +1,11 @@
-var mailSender = require('@sendgrid/mail');
-var config = require('../config/config');
-var _ = require('lodash');
-var request = require('request-promise-native');
-var config = require('../config/config');
+let mailSender = require('@sendgrid/mail');
+let config = require('../config/config');
+let _ = require('lodash');
+let request = require('request-promise-native');
 
-var helper = {
+let helper = {
     generateBatchID: async function(){
-        var options = {
+        let options = {
             method: 'POST',
             uri: 'https://api.sendgrid.com/v3/mail/batch',
             headers: {
@@ -20,7 +19,7 @@ var helper = {
         return response.batch_id;
     }
 }
-var service = {
+let service = {
 
     sendEmail: async function(recipients, from, content, subject, mailSettings){
         let fromAddress = from|| config.fromAddress;
@@ -42,7 +41,7 @@ var service = {
         return result;
     },
 
-    sendScheduledEmail: async function(recipients, from, content, subject, scheduling, mailSettings){
+    sendScheduledEmail: async function(recipients, from, content, subject, desiredTime, mailSettings){
         let moreThanOneRecipient = _.isArray(recipients) ? true : false;
 
         let fromAddress = from|| config.fromAddress;
@@ -54,12 +53,11 @@ var service = {
             subject: subject
         };
 
-        let batchId = await helper.generateBatchID();
 
         if(moreThanOneRecipient){
-            msg['send_each_at'] = parseInt(scheduling);
+            msg['send_each_at'] = desiredTime;
         }else{
-            msg['send_at'] = parseInt(scheduling);
+            msg['send_at'] = desiredTime;
         }
 
         if(mailSettings){
@@ -67,6 +65,7 @@ var service = {
         }
 
         let result = await mailSender.send(msg);
+        let batchId = await helper.generateBatchID();
         result[0]['batchId'] = batchId;
 
         return result;

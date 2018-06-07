@@ -1,7 +1,7 @@
-var appRoot = require('app-root-path');
-var winston = require('winston');
+let appRoot = require('app-root-path');
+let winston = require('winston');
 
-var options = {
+let options = {
     file: {
         level: 'info',
         filename: `${appRoot}/logs/log.txt`,
@@ -19,7 +19,7 @@ var options = {
     }
 };
 
-var logger = new winston.Logger({
+let logger = new winston.Logger({
     transports: [
         new winston.transports.File(options.file),
         new winston.transports.Console(options.console)

@@ -1,4 +1,4 @@
-var apiRules = require('./api-rules');
+let apiRules = require('./api-rules');
 
 function _register(app){
 

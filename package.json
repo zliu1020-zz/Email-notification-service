@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "startDev": "nodemon app.js",
-    "tests": "mocha ./tests/*/*.spec.js"
+    "tests": "mocha ./tests/acme.js"
   },
   "dependencies": {
     "@sendgrid/mail": "^6.2.1",
@@ -17,6 +17,7 @@
     "lodash": "^4.17.10",
     "memory-cache": "^0.2.0",
     "mocha": "^5.2.0",
+    "moment": "^2.22.2",
     "morgan": "~1.9.0",
     "request-promise": "^4.2.2",
     "request-promise-native": "^1.0.5",

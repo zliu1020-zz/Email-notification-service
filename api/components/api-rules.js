@@ -1,4 +1,4 @@
-var emailAPI = require('../email-api');
+let emailAPI = require('../email-api');
 
 module.exports = [
     {
