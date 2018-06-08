@@ -16,6 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 api._register(app);
 mailSender.setApiKey(config.apiKey);
+winston.info(`API key ${config.apiKey} is registered`);
 
 app.listen(config.port, () => {
     winston.info(`App listening on port ${config.port}`);

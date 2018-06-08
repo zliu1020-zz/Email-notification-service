@@ -2,6 +2,7 @@ let mailSender = require('@sendgrid/mail');
 let config = require('../config/config');
 let _ = require('lodash');
 let request = require('request-promise-native');
+let logger = require('../logger/logger');
 
 let helper = {
     generateBatchID: async function(){
@@ -16,6 +17,7 @@ let helper = {
         };
 
         let response = await request(options);
+        logger.debug(`BatchID generated: ${response.batch_id}`);
         return response.batch_id;
     }
 }

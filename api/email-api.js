@@ -3,6 +3,7 @@ let emailService = require('../services/email');
 let InternalError = require('../error/InternalError');
 let _ = require('lodash');
 let moment = require('moment');
+let logger = require('../logger/logger');
 
 let emailAPI = {
 
@@ -19,6 +20,9 @@ let emailAPI = {
             let content = req.body.content;
             let subject = req.body.subject;
             let mailSettings = req.body.mail_settings;
+
+            logger.debug(`Prepare to send regular email - recipients:${JSON.stringify(recipients)}, fromAddress:${fromAddress},
+             subject: ${subject}, content:${content}, mailSettings: ${JSON.stringify(mailSettings)}`);
 
             let result = await emailService.sendEmail(recipients, fromAddress, content, subject, mailSettings);
 
@@ -74,6 +78,9 @@ let emailAPI = {
                     throw new InternalError(`Desired time cannot be a past date`, InternalError.Types.UserError);
                 }
             }
+
+            logger.debug(`Prepare to send scheduled email - recipients:${JSON.stringify(recipients)}, fromAddress:${fromAddress},
+             subject: ${subject}, content:${content}, scheduled time: ${JSON.stringify(scheduling)}, mailSettings: ${JSON.stringify(mailSettings)}`);
 
             let result = await emailService.sendScheduledEmail(recipients, fromAddress, content, subject, scheduling, mailSettings);
 

@@ -410,3 +410,59 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2018:03:09:37 +0000] \"POST /emails HTTP/1.1\" 400 114 \"-\" \"-\"\n","timestamp":"2018-06-07T03:09:37.283Z"}
 {"level":"error","message":"API request failed - Scheduling time should be specified by only one of sendEachAt and sendAt","timestamp":"2018-06-07T03:09:37.286Z"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [07/Jun/2018:03:09:37 +0000] \"POST /emails HTTP/1.1\" 400 152 \"-\" \"-\"\n","timestamp":"2018-06-07T03:09:37.286Z"}
+{"level":"info","message":"API: post /emails is registered","timestamp":"2018-06-07T23:57:06.563Z"}
+{"level":"info","message":"App listening on port 3050","timestamp":"2018-06-07T23:57:06.573Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-07T23:57:11.489Z"}
+{"level":"info","message":"::1 - - [07/Jun/2018:23:57:11 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-07T23:57:11.493Z"}
+{"level":"info","message":"::1 - - [07/Jun/2018:23:58:12 +0000] \"POST /emails HTTP/1.1\" 400 1091 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-07T23:58:12.623Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: subject","timestamp":"2018-06-07T23:58:19.601Z"}
+{"level":"info","message":"::1 - - [07/Jun/2018:23:58:19 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-07T23:58:19.602Z"}
+{"level":"info","message":"API: post /emails is registered","timestamp":"2018-06-08T00:07:23.248Z"}
+{"level":"info","message":"App listening on port 3050","timestamp":"2018-06-08T00:07:23.258Z"}
+{"level":"error","message":"API request failed - Desired time cannot be a past date","timestamp":"2018-06-08T00:07:27.548Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:07:27 +0000] \"POST /emails HTTP/1.1\" 400 114 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:07:27.555Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:07:43.322Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:07:43 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:07:43.323Z"}
+{"level":"info","message":"API: post /emails is registered","timestamp":"2018-06-08T00:14:51.483Z"}
+{"level":"info","message":"App listening on port 3050","timestamp":"2018-06-08T00:14:51.514Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:14:52.219Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:14:52 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:14:52.223Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:14:52.546Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:14:52 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:14:52.548Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:14:52.858Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:14:52 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:14:52.860Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:14:53.207Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:14:53 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:14:53.208Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-08T00:14:53.213Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:14:53 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-08T00:14:53.213Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: recipients","timestamp":"2018-06-08T00:14:53.219Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:14:53 +0000] \"POST /emails HTTP/1.1\" 400 131 \"-\" \"-\"\n","timestamp":"2018-06-08T00:14:53.220Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: subject","timestamp":"2018-06-08T00:14:53.224Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:14:53 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-08T00:14:53.224Z"}
+{"level":"error","message":"API request failed - Desired time cannot be a past date","timestamp":"2018-06-08T00:14:53.230Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:14:53 +0000] \"POST /emails HTTP/1.1\" 400 114 \"-\" \"-\"\n","timestamp":"2018-06-08T00:14:53.230Z"}
+{"level":"error","message":"API request failed - Scheduling time should be specified by only one of sendEachAt and sendAt","timestamp":"2018-06-08T00:14:53.235Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:14:53 +0000] \"POST /emails HTTP/1.1\" 400 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:14:53.236Z"}
+{"level":"info","message":"API: post /emails is registered","timestamp":"2018-06-08T00:15:46.574Z"}
+{"level":"info","message":"App listening on port 3050","timestamp":"2018-06-08T00:15:46.598Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:15:47.000Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:15:47 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:15:47.004Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:15:47.371Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:15:47 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:15:47.372Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:15:47.702Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:15:47 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:15:47.703Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:15:48.010Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:15:48 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:15:48.011Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: content","timestamp":"2018-06-08T00:15:48.015Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:15:48 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-08T00:15:48.016Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: recipients","timestamp":"2018-06-08T00:15:48.020Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:15:48 +0000] \"POST /emails HTTP/1.1\" 400 131 \"-\" \"-\"\n","timestamp":"2018-06-08T00:15:48.020Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: subject","timestamp":"2018-06-08T00:15:48.024Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:15:48 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"-\"\n","timestamp":"2018-06-08T00:15:48.024Z"}
+{"level":"error","message":"API request failed - Desired time cannot be a past date","timestamp":"2018-06-08T00:15:48.028Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:15:48 +0000] \"POST /emails HTTP/1.1\" 400 114 \"-\" \"-\"\n","timestamp":"2018-06-08T00:15:48.029Z"}
+{"level":"error","message":"API request failed - Scheduling time should be specified by only one of sendEachAt and sendAt","timestamp":"2018-06-08T00:15:48.032Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2018:00:15:48 +0000] \"POST /emails HTTP/1.1\" 400 152 \"-\" \"-\"\n","timestamp":"2018-06-08T00:15:48.032Z"}
+{"level":"info","message":"API: post /emails is registered","timestamp":"2018-06-08T00:17:06.159Z"}
+{"level":"info","message":"API key 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 registered","timestamp":"2018-06-08T00:17:06.162Z"}
+{"level":"info","message":"App listening on port 3050","timestamp":"2018-06-08T00:17:06.169Z"}
