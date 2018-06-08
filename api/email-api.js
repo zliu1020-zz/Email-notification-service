@@ -65,12 +65,15 @@ let emailAPI = {
             let now = moment().unix();
 
             if(_.isArray(scheduling)){
+                let desiredTimeArr = [];
                 for(let time of scheduling){
                     time = moment(time).unix();
+                    desiredTimeArr.push(time);
                     if(time < now){
                         throw new InternalError(`Desired time cannot be a past date`, InternalError.Types.UserError);
                     }
                 }
+                scheduling = desiredTimeArr;
             }else{
                 scheduling = moment(scheduling).unix();
 

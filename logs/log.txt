@@ -466,3 +466,36 @@
 {"level":"info","message":"API: post /emails is registered","timestamp":"2018-06-08T00:17:06.159Z"}
 {"level":"info","message":"API key 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 registered","timestamp":"2018-06-08T00:17:06.162Z"}
 {"level":"info","message":"App listening on port 3050","timestamp":"2018-06-08T00:17:06.169Z"}
+{"level":"info","message":"API: post /emails is registered","timestamp":"2018-06-08T00:22:14.108Z"}
+{"level":"info","message":"API key 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 is registered","timestamp":"2018-06-08T00:22:14.111Z"}
+{"level":"info","message":"App listening on port 3050","timestamp":"2018-06-08T00:22:14.121Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:22:17.197Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:22:17 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:22:17.202Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:23:09.651Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:23:09 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:23:09.653Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:24:19.809Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:24:19 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:24:19.810Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:24:45.000Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:24:45 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:24:45.002Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:25:03.855Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:25:03 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:25:03.856Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:25:55.963Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:25:55 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:25:55.963Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:26:22.988Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:26:22 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:26:22.989Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:27:56.834Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:27:56 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:27:56.834Z"}
+{"level":"info","message":"API: post /emails is registered","timestamp":"2018-06-08T00:29:48.179Z"}
+{"level":"info","message":"API key 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 is registered","timestamp":"2018-06-08T00:29:48.186Z"}
+{"level":"info","message":"App listening on port 3050","timestamp":"2018-06-08T00:29:48.208Z"}
+{"level":"info","message":"API: post /emails is registered","timestamp":"2018-06-08T00:32:48.225Z"}
+{"level":"info","message":"API key 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 is registered","timestamp":"2018-06-08T00:32:48.228Z"}
+{"level":"info","message":"App listening on port 3050","timestamp":"2018-06-08T00:32:48.238Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:33:09.102Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:33:09 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:33:09.107Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:34:49.683Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:34:49 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:34:49.685Z"}
+{"level":"info","message":"API request succeeded - URL: /emails","timestamp":"2018-06-08T00:35:33.149Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:35:33 +0000] \"POST /emails HTTP/1.1\" 200 152 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:35:33.151Z"}
+{"level":"error","message":"API request failed - Missing mandatory field in request body: subject","timestamp":"2018-06-08T00:36:28.032Z"}
+{"level":"info","message":"::1 - - [08/Jun/2018:00:36:28 +0000] \"POST /emails HTTP/1.1\" 400 128 \"-\" \"PostmanRuntime/7.1.5\"\n","timestamp":"2018-06-08T00:36:28.036Z"}
