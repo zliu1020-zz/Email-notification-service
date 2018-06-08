@@ -6,7 +6,7 @@
 ## Usage Examples 
   - Welcome email upon user registration
   - Order confirmation email after online purchase
-  - Appointment remainder email, etc. 
+  - Appointment reminder email, etc. 
   
 ## Tech Stack
 - Node.js, Express 
