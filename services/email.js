@@ -5,6 +5,8 @@ let request = require('request-promise-native');
 let logger = require('../logger/logger');
 
 let helper = {
+
+    /** generate bacth id to track the current batch of emails */
     generateBatchID: async function(){
         let options = {
             method: 'POST',
@@ -23,13 +25,21 @@ let helper = {
 }
 let service = {
 
+    /**
+     * Service to send out email
+     * @param {string} or {array} recipients - email recipients
+     * @param {string} from - address from which emails are sent
+     * @param {string} content - email content
+     * @param {string} subject - email subject
+     * @param {object} mailSettings - additional mail settings
+     */
     sendEmail: async function(recipients, from, content, subject, mailSettings){
         let fromAddress = from|| config.fromAddress;
 
         const msg = {
             to: recipients,
             from: fromAddress,
-            html: `<p>${content}</p>`,
+            html: `${content}`,
             subject: subject
         };
 
@@ -43,6 +53,15 @@ let service = {
         return result;
     },
 
+    /**
+     * Service to send out scheduled email
+     * @param {string} or {array} recipients - email recipients
+     * @param {string} from - address from which emails are sent
+     * @param {string} content - email content
+     * @param {string} subject - email subject
+     * @param {string} or {array} desiredTime - scheduled time slots
+     * @param {object} mailSettings - additional mail settings
+     */
     sendScheduledEmail: async function(recipients, from, content, subject, desiredTime, mailSettings){
         let moreThanOneRecipient = _.isArray(recipients) ? true : false;
 
@@ -51,7 +70,7 @@ let service = {
         const msg = {
             to: recipients,
             from: fromAddress,
-            html: `<p>${content}</p>`,
+            html: `${content}`,
             subject: subject
         };
 

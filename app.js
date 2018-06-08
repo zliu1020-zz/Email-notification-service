@@ -14,7 +14,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+/** Register API endpoints */
 api._register(app);
+
+/** Set Sendgrid API key */
 mailSender.setApiKey(config.apiKey);
 winston.info(`API key ${config.apiKey} is registered`);
 

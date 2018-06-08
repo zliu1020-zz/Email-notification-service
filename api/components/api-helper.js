@@ -3,6 +3,12 @@ let logger = require('../../logger/logger');
 
 let apiHelper = {
 
+    /**
+     * Helper function to valid API request parameters
+     * @param {Object} req - request object
+     * @param {Object} body - specifications of body parameters
+     * @param {Object} query - specifications of query parameters
+     */
     preProcess: function(req, body, query){
 
         if(body && body.mandatory && !req.hasOwnProperty("body")){
@@ -46,11 +52,23 @@ let apiHelper = {
         }
     },
 
+    /**
+     * Helper function to send out API response on success
+     * @param {Object} req - request object
+     * @param {Object} res - response object
+     * @param {Object} data - Resulting data returned by APIs
+     */
     sendAPISuccess: function(req, res, data){
         logger.info(`API request succeeded - URL: ${req.originalUrl}`);
         res.status(200).json(data);
     },
 
+    /**
+     * Helper function to send out API response on failure
+     * @param {Object} req - request object
+     * @param {Object} res - response object
+     * @param {Object} e - Error returned by APIs
+     */
     sendAPIFailure: function(req, res, e){
 
         logger.error(`API request failed - ${e.message}`);

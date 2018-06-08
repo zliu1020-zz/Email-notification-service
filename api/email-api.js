@@ -7,6 +7,14 @@ let logger = require('../logger/logger');
 
 let emailAPI = {
 
+    /**
+     * API to send out regular email
+     * @param Mandatory {string} or {array} recipients - email recipients
+     * @param Mandatory {string} fromAddress - address from which emails are sent
+     * @param Mandatory {string} content - email content
+     * @param Mandatory{string} subject - email subject
+     * @param Optional {object} mail_settings - additional mail settings
+     */
     sendRegularEmail: async function(req, res){
         try{
             apiHelper.preProcess(req,
@@ -39,6 +47,16 @@ let emailAPI = {
         }
     },
 
+    /**
+     * API to send out scheduled email
+     * @param Mandatory {string} or {array} recipients - email recipients
+     * @param Mandatory {string} fromAddress - address from which emails are sent
+     * @param Mandatory {string} content - email content
+     * @param Mandatory {string} subject - email subject
+     * @param Mandatory {string} sendAt - scheduled time slot
+     * @param Mandatory {Array} sendEachAt - scheduled time slots
+     * @param Optional {object} mail_settings - additional mail settings
+     */
     sendScheduledEmail: async function(req, res){
 
         try{
